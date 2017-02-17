@@ -1,0 +1,112 @@
+/*
+	Reset
+*/
+
+*{margin: 0; padding: 0px; box-sizing: border-box; 
+	font-family: 'Roboto Slab', serif;}
+
+
+
+.messages{
+	margin-top: 70px;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+
+}
+
+.messages h1{
+	margin-bottom: 20px;
+	font-size: 38px;
+}
+
+.messages h3{
+	color: #fff;
+	padding: 10px 2px;
+	border-radius: 5px;
+	display: inline-block;
+	background: #1FD794;
+	max-width: 600px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+.content{
+	width: 100%;
+	min-height: 100vh; 
+	padding: 50px 75px; 
+	display: block; 
+}
+
+#texts{
+	background: linear-gradient(rgba(0, 140, 180, .8), rgba(0, 0, 0, .4)), url(../imgs/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#texts #logo{
+	display: block;
+	margin: 0 auto;
+}
+
+#form{
+	background: #FBFFFD;
+	border-top: 3px dotted #FAFFFD;
+}
+
+#contact-form{
+	padding: 20px;
+	border-radius: 5px;
+	min-width: 300px;
+	max-width: 720px;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+
+.form-group{
+	display: block;
+}
+.form-group label{
+	color: #18829C;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.form-group input{
+	display: block;
+	width: 100%;
+	border: 0px;
+	border-bottom: 2px dotted #18829C;
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 0px 8px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #4B4B4B;
+	background: none;
+}
+.form-group input:focus{
+	outline: none;
+}
+.button{
+	background: #18829C;
+	border: 2px solid #1C70B0;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+.button:hover{
+	background: #1C99B8;
+	transition: all .5s;
+}
