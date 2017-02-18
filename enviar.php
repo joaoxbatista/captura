@@ -18,7 +18,6 @@ function notempty($array){
 
 
 $data = notempty($_POST);
-$_SESSION['message'] = null;
 
 if($data){
 	//Pegando variáveis de configuração
